@@ -20,6 +20,13 @@
   .footer-contenido_bg .footer-items_style {
     color: white;
     text-align: center; }
+  .footer-contenido_bg .map-contenedor_padding {
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden; }
+    .footer-contenido_bg .map-contenedor_padding #map {
+      height: 200px;
+      width: 100%; }
 
 .footer-derechos_bg {
   padding: 0;

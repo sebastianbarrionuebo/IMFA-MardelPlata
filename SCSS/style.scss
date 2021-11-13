@@ -37,6 +37,15 @@
         color: white;
         text-align: center;
     }
+    .map-contenedor_padding{
+        padding: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        #map {
+            height: 200px;
+            width: 100%;
+        }
+    }
 }
 .footer-derechos_bg{
     padding: 0;

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+//Header
+.navbar_padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .justify-content_end{
+        justify-content: end;
+        padding-left: 40px;
+        .navbar-collapse_padding{
+            padding-right: 40px;
+        }
+    }
+}
+
+
+
+//Main
+
+
+
+
+
+
+
+//Footer
+.footer-contenido_bg{
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(19, 1, 122);
+    .footer-items_style{
+        color: white;
+        text-align: center;
+    }
+}
+.footer-derechos_bg{
+    padding: 0;
+    background-color: rgb(14, 0, 90);
+    .footer-derechos_style{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

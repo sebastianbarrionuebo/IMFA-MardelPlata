@@ -12,11 +12,66 @@
     .navbar_padding .justify-content_end .navbar-collapse_padding {
       padding-right: 40px; }
 
+main {
+  padding-top: 100px;
+  padding-bottom: 160px;
+  background-color: white; }
+
+.contacto--tittle__style {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px; }
+
+.referencias--container__styleBox {
+  background-color: #dbc7c7;
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5); }
+  .referencias--container__styleBox .referencias--contactos__padding {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.referencias--container__styleBox:hover {
+  transition: 1000ms;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.8); }
+
+.form--container_stylebox {
+  background-color: #dbc7c7;
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5); }
+  .form--container_stylebox div {
+    text-align: center; }
+    .form--container_stylebox div label {
+      padding-top: 20px; }
+    .form--container_stylebox div .form--input__style {
+      border: 1.5px solid #5f5fc9;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 8px;
+      margin: auto;
+      width: 500px; }
+    .form--container_stylebox div textarea {
+      border: 1.5px solid #5f5fc9;
+      border-radius: 8px;
+      margin: auto;
+      width: 500px; }
+    .form--container_stylebox div .btn--reset__padding {
+      padding-top: 30px;
+      padding-left: 170px;
+      padding-bottom: 40px; }
+    .form--container_stylebox div .btn--submit__padding {
+      padding-top: 30px;
+      padding-right: 170px;
+      padding-bottom: 40px; }
+
 .footer-contenido_bg {
   padding: 0;
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: #13017a; }
+  background-color: #19181a; }
   .footer-contenido_bg .footer-items_style {
     color: white;
     text-align: center; }
@@ -25,12 +80,12 @@
     border-radius: 10px;
     overflow: hidden; }
     .footer-contenido_bg .map-contenedor_padding #map {
-      height: 200px;
+      height: 170px;
       width: 100%; }
 
 .footer-derechos_bg {
   padding: 0;
-  background-color: #0e005a; }
+  background-color: black; }
   .footer-derechos_bg .footer-derechos_style {
     color: white;
     text-align: center;

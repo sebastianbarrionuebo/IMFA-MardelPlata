@@ -49,7 +49,7 @@ main {
   padding-top: 130px; }
 
 .home--containder__padding {
-  padding-top: 120px;
+  padding-top: 200px;
   padding-left: 80px;
   padding-right: 80px; }
   .home--containder__padding .home--item__style {
@@ -67,24 +67,25 @@ main {
 .nosotros--container__padding {
   padding-top: 50px; }
 
-.contacto--img__box {
+.title--img__box {
+  padding-top: 200px;
   border-bottom: 3px solid black; }
-  .contacto--img__box img {
+  .title--img__box img {
     width: 100%;
     height: auto;
     position: relative;
     display: inline-block;
     text-align: center; }
-  .contacto--img__box .contacto--title__position {
+  .title--img__box .title__position {
     position: absolute;
     top: 60%;
     left: 5%;
     transform: translate(-50%, -50%); }
-  .contacto--img__box .contacto--tittle__style {
+  .title--img__box .tittle__style {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
+    padding-left: 180px;
     padding-right: 30px;
     background: #72f2ff;
     background: linear-gradient(90deg, #72f2ff 0%, #cdfeff 50%, #fafafa 100%); }
